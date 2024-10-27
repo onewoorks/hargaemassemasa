@@ -1,0 +1,52 @@
+#onewoorks-livegoldprice {
+  max-width: 980px;
+  margin: auto;
+}
+#onewoorks-livegoldprice #first-load {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+}
+
+#onewoorks-livegoldprice .lgp-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#onewoorks-livegoldprice .lgp-header>.title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#onewoorks-livegoldprice .the-label {
+    font-weight: bold;
+}
+
+#onewoorks-livegoldprice .the-desc {
+    font-size: 0.8rem
+}
+
+#onewoorks-livegoldprice .card {
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  border:1px solid #ccc;
+  border-radius: 4px;
+}
+
+#onewoorks-livegoldprice #papar-harga {
+  max-width: 980px;
+  margin: 15px auto;
+  display: grid;
+  gap: 1rem;
+}
+
+#onewoorks-livegoldprice .price-text {
+    font-weight:bold;
+    font-size: 1.3rem;
+  }
+
+@media (min-width: 690px) {
+    #onewoorks-livegoldprice #papar-harga { grid-template-columns: repeat(2, 1fr); }
+  }
